@@ -1,0 +1,7 @@
+# Ignora le directory cache del browser
+AppData/Local/BraveSoftware/Brave-Browser/
+
+# Altri file o directory specifici da ignorare
+*.log
+*.tmp
+*.cache
