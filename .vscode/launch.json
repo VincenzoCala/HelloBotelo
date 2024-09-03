@@ -10,7 +10,7 @@
             "serverInstance": "BC",
             "authentication": "UserPassword",
             "port": 7049,
-            "startupObjectId": 22,
+            "startupObjectId": 300,
             "startupObjectType": "Page",
             "breakOnError": true,
             "launchBrowser": true,
