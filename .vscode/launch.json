@@ -1,8 +1,8 @@
 {
-    "version": "0.2.0",
+   "version": "0.2.0",
     "configurations": [
         {
-            "name": "Bcserver Docker",
+           "name": "Bcserver Docker",
             "request": "launch",
             "type": "al",
             "environmentType": "OnPrem",
@@ -10,14 +10,29 @@
             "serverInstance": "BC",
             "authentication": "UserPassword",
             "port": 7049,
-            "startupObjectId": 300,
+            "startupObjectId": 31,
             "startupObjectType": "Page",
             "breakOnError": true,
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
-            "tenant": "default"
+            "tenant": "default" },
+            {
+            "type": "al",
+            "request": "launch",
+            "name": "HelloBotelo",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "99c230c0-1000-4399-b605-32aea12fa7c5/",
+            "environmentType": "Sandbox",
+            "environmentName": "Bolero",
+            "schemaUpdateMode": "ForceSync"
             
         }
+        
     ]
 }
